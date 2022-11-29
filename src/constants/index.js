@@ -1,6 +1,6 @@
 // list of static texts
 
-import { /*people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox,*/ mic, wordsearch, plate  } from "../assets";
+import { close, instagram, facebook /*people01, people02, people03, linkedin, twitter, airbnb, binance, coinbase, dropbox,*//* mic, wordsearch, plate */  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,28 +23,25 @@ export const navLinks = [
 
 export const features = [
   {
-    id: "",
-    icon: mic,
-    title: "10:30 AM",
+    id: "Baltimore",
+    icon: facebook,
+    title: "Baltimore",
     content:
-      "",
+      "null",
   },
   {
-    id: "",
-    icon: wordsearch,
-    title: "11:00 AM",
+    id: "Rockville",
+    icon: facebook,
+    title: "Rockville",
     content:
-      "",
+      "null",
   },
   {
-    id: "",
-    icon: plate,
-    title: "12:00 PM",
+    id: "Virginia",
+    icon: facebook,
+    title: "Virginia",
     content:
-      "",
-  },
-  {
-    id: ""
+      "null",
   }
 ];
 
@@ -55,7 +52,7 @@ export const feedback = [
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Herman Jensen",
     title: "Founder & Leader",
-    img: people01,
+    img: close,
   },
   {
     id: "feedback-2",
@@ -63,7 +60,7 @@ export const feedback = [
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
     title: "Founder & Leader",
-    img: people02,
+    img: close,
   },
   {
     id: "feedback-3",
@@ -71,7 +68,7 @@ export const feedback = [
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
-    img: people03,
+    img: close,
   },
 ];
 
@@ -172,31 +169,31 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: instagram,
+    link: "https://www.youtube.com/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: facebook,
+    link: "https://www.kakaotalk.com/",
   },
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: facebook,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: facebook,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: facebook,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: facebook,
   },
-];
+]; 
