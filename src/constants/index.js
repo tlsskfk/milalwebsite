@@ -21,7 +21,13 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const heroMessage = {
+  id: "heroMessage",
+  title: "25",
+  content: "years of service"
+}
+
+export const locations = [
   {
     id: "Baltimore",
     icon: facebook,
@@ -75,18 +81,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Volunteers",
+    value: "450+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Hours/Year",
+    value: "21000+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Cities",
+    value: "17",
   },
 ];
 
