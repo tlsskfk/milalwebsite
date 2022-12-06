@@ -24,12 +24,22 @@ export const navLinks = [
 export const heroMessage = {
   id: "heroMessage",
   title: "25",
-  content: "years of service"
+  content: "years of service",
+  desc: "Milal's Mission ............... lorem ipsum yabba doodoo Milal's Mission ............... lorem ipsum yabba doodoo wMilal's Mission ............... lorem ipsum yabba doodoo "
 }
+
+export const locationsDescription = [
+  {
+    id: "East",
+    region: "East",
+    content: "Locations in Rockeville, MD - Led by Esther Lee; Baltimore, MD - Led by Pastor Jung; Boondocks, Virginia -.........."
+  }
+]
 
 export const locations = [
   {
     id: "Baltimore",
+    region: "East",
     icon: facebook,
     title: "Baltimore",
     content:
@@ -37,6 +47,7 @@ export const locations = [
   },
   {
     id: "Rockville",
+    region: "East",
     icon: facebook,
     title: "Rockville",
     content:
@@ -44,8 +55,41 @@ export const locations = [
   },
   {
     id: "Virginia",
+    region: "East",
     icon: facebook,
     title: "Virginia",
+    content:
+      "null",
+  },
+  {
+    id: "New York",
+    region: "East",
+    icon: facebook,
+    title: "New York, NY",
+    content:
+      "null",
+  },
+  {
+    id: "Orange County",
+    region: "West",
+    icon: facebook,
+    title: "Orange County, CA",
+    content:
+      "null",
+  },
+  {
+    id: "Chicago?",
+    region: "MidWest",
+    icon: facebook,
+    title: "Chicago, IL",
+    content:
+      "null",
+  },
+  {
+    id: "Charlotte",
+    region: "SouthEast",
+    icon: facebook,
+    title: "Charlotte, NC",
     content:
       "null",
   }

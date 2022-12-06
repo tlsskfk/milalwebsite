@@ -27,9 +27,7 @@ const Hero = () => (
         Wheat Mission
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Milal's Mission ............... lorem ipsum yabba doodoo 
-        Milal's Mission ............... lorem ipsum yabba doodoo 
-        Milal's Mission ............... lorem ipsum yabba doodoo  
+        {heroMessage.desc}
       </p>
     </div>
     <div>
