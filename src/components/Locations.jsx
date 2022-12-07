@@ -9,11 +9,11 @@ import Select from './Select';
 const Locations = () => {
 
   const options = [
-    { label: "East", value: [0,1,2,3] },
-    { label: "South", value: [7]},
-    { label: "SouthEast", value: [6] },
-    { label: "MidWest", value: [5] },
-    { label: "West", value: [4] }
+    { label: "East", value: "East" },
+    { label: "South", value: "South" },
+    { label: "SouthEast", value: "SouthEast" },
+    { label: "MidWest", value: "MidWest" },
+    { label: "West", value: "West" }
   ];
 
   const [value, setValue] = useState(options[0].value);
@@ -35,7 +35,7 @@ const Locations = () => {
           <br />Saturdays @ 10:30AM
         </h2>
           <Select 
-            className={`${styles.paragraph} max-w-[470px] mt-5 font-poppins font-semibold ss:text-[32px] text-[20px] ss:leading-[44px] leading-[34px]`}
+            className={`${styles.paragraph} max-w-[470px] mt-5 font-poppins text-secondary font-semibold ss:text-[32px] text-[20px] ss:leading-[44px] leading-[34px]`}
             label="Regions: "
             options={options}
             value={value}

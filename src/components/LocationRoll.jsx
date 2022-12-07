@@ -7,10 +7,10 @@ export const LocationRoll = ({ value }) => {
     return (
     <div className="flex flex-1 justify-between">
         <div className='scroller font-poppins font-normal'>
-            {locations[value].map((props, index ) => (
+            {locations.map((props) => (
                 <li
                     key={props.id}
-                    // className={`${index ===  ? 'text-[25px]' : 'text-[55px}'} list-none`}
+                    className={`${props.region === value || value === 'All' ? 'text-[25px]' : 'hidden'} list-none bg-tertiary`}
                 >
                 {props.title}
                 </li> 

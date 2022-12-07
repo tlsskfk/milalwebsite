@@ -9,7 +9,7 @@ const Hero = () => (
       <div className="flex flex-row items-center py-[6px] px-4 bg-dscount-gradient rounded-[10px] mb-2">{" "}
         <img src={heart} alt="heart" className="w-[32px] h-[32px]" />
         <p className={`${styles.paragraph} ml-2`}>
-          <span className='text-white'>{heroMessage.title}</span>{" "}{heroMessage.content}
+          <span className='text-primary'>{heroMessage.title}</span>{" "}{heroMessage.content}
         </p>
       </div>
 
@@ -23,7 +23,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+      <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-secondary ss:leading-[100px] leading-[75px]'>
         Wheat Mission
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
