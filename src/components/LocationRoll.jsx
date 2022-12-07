@@ -10,7 +10,7 @@ export const LocationRoll = ({ value }) => {
             {locations.map((props) => (
                 <li
                     key={props.id}
-                    className={`${props.region === value || value === 'All' ? 'text-[25px]' : 'hidden'} list-none bg-tertiary`}
+                    className={`${props.region === value || value === 'All' ? 'text-[25px]' : 'hidden'} list-none bg-primary text-tertiary space-between text-center`}
                 >
                 {props.title}
                 </li> 

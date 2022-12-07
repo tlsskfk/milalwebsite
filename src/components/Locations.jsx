@@ -35,7 +35,7 @@ const Locations = () => {
           <br />Saturdays @ 10:30AM
         </h2>
           <Select 
-            className={`${styles.paragraph} max-w-[470px] mt-5 font-poppins text-secondary font-semibold ss:text-[32px] text-[20px] ss:leading-[44px] leading-[34px]`}
+            className={`${styles.paragraph} max-w-[470px] mt-5 font-poppins text-tertiary font-semibold ss:text-[32px] text-[20px] ss:leading-[44px] leading-[34px]`}
             label="Regions: "
             options={options}
             value={value}

@@ -1,6 +1,6 @@
 
 const Select = ({ className, label, options, value, onChange }) => {
-    
+
     return (
         <label className={className}>
         {label}
