@@ -10,6 +10,7 @@ import MainInfo from "./MainInfo";
 import Navbar from "./Navbar";
 import Sponsors from "./Sponsors";
 import Stats from "./Stats";
+import Rainbow from './Rainbow';
 
 export {
     Articles,
@@ -23,5 +24,6 @@ export {
     MainInfo,
     Navbar,
     Sponsors,
-    Stats
+    Stats,
+    Rainbow
 };

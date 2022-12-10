@@ -65,7 +65,7 @@ export const locations = [
     id: "New York",
     region: "East",
     icon: facebook,
-    title: "New York, NY",
+    title: "New York",
     content:
       "null",
   },
@@ -73,7 +73,7 @@ export const locations = [
     id: "Orange County",
     region: "West",
     icon: facebook,
-    title: "Orange County, CA",
+    title: "San Diego",
     content:
       "null",
   },
@@ -81,7 +81,7 @@ export const locations = [
     id: "Chicago?",
     region: "MidWest",
     icon: facebook,
-    title: "Chicago, IL",
+    title: "Chicago",
     content:
       "null",
   },
@@ -89,7 +89,7 @@ export const locations = [
     id: "Charlotte",
     region: "SouthEast",
     icon: facebook,
-    title: "Charlotte, NC",
+    title: "Charlotte",
     content:
       "null",
   }

@@ -2,20 +2,21 @@
 
 import { locations } from "../constants";
 
-export const LocationRoll = ({ value }) => {
+export const LocationRoll = () => {
     
     return (
     <div className="flex flex-1 justify-between">
-        <div className='scroller font-poppins font-normal'>
-            {locations.map((props) => (
-                <li
-                    key={props.id}
-                    className={`${props.region === value || value === 'All' ? 'text-[25px]' : 'hidden'} list-none bg-primary text-tertiary space-between text-center`}
-                >
-                {props.title}
-                </li> 
-            )
-            )}
+        <div className='list-none text-tertiary text-semibold top:0 overflow-hidden relative h-[1.2em] leading-normal ml-2 w-[15em] m-w-full'>
+            <span className="absolute top:0 scroller font-bold">
+                {locations.map((props) => (
+                    <li
+                        key={props.id}
+                    >
+                    {props.title}
+                    </li> 
+                )
+                )}
+            </span>
         </div>
     </div>
     )
