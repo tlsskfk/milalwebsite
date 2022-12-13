@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+@import url("");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,18 +22,17 @@
 
 .text-gradient {
   background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    rgb( 254, 215, 170) 0.89%,
-    rgb( 253, 186, 116) 17.23%,
-    rgb( 251, 146, 60) 42.04%,
-    rgb( 249, 115, 22) 55.12%,
-    rgb( 234, 88, 12 ) 71.54%,
-    rgb( 194, 65, 12) 100%
+    64.18% 64.18% at 59.16% 25.69%,
+    rgb( 251, 191, 36 ) 0.89%,
+    rgb( 245, 158, 11 ) 17.23%,
+    rgb( 217, 119, 6 ) 42.04%,
+    rgb( 180, 83, 9 ) 55.12%,
+    rgb( 146, 64, 14 ) 71.54%,
+    rgb( 120, 53, 15 ) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -72,7 +73,8 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #00e3f8 0%, #ffe6e6 100%);
+  background: linear-gradient(40deg,
+    #A6D2A5 0%, #A6D2A5 81%, #ffe6e6 90%, #A6D2A5 97%);
 }
 
 .box-shadow {

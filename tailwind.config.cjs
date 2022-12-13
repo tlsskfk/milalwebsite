@@ -6,10 +6,12 @@ module.exports = {
     extend: {
       colors: {
         primary: "#ffe6e6",
-        secondary: "#00f6ff",
-        tertiary: "rgb(54, 83, 20)",
-        dimColor0: "rgba(255, 255, 255, 0.7)",
-        dimColor1: "rgba(9, 151, 124, 0.1)",
+        bluePrimary: "#10559A",
+        secondary: "rgb( 120, 53, 15 )", //brown
+        tertiary: "rgb(54, 83, 20)",//green
+        terracotta: "#ED6A5A",
+        dimColor0: "#946ED4",//purp
+        dimColor1: "#A6D2A5", //lightgreen
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
