@@ -1,9 +1,14 @@
-
+import styles, { layout } from '../style';
 
 const MainInfo = () => {
   return (
-    <div>MainInfo</div>
-  )
-}
+    <section id='MainInfo' className='flex-row flex'>
+      <h1 className='flex z-[1] text-tertiary'>
+        hello
+      </h1>
 
-export default MainInfo
+    </section>
+  
+    )};
+
+export default MainInfo;

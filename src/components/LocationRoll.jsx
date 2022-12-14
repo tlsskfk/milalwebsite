@@ -16,6 +16,7 @@ export const LocationRoll = () => {
                     </li> 
                 )
                 )}
+                <li key={locations[0].id}>{locations[0].title}</li>
             </span>
         </div>
     </div>

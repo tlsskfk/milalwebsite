@@ -1,7 +1,8 @@
 import styles from '../style';
-import {jesus, heart} from '../assets';
+import { heart } from '../assets';
 import {heroMessage} from '../constants';
 import LearnMore from './LearnMore';
+import Tree from './Tree';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -31,7 +32,7 @@ const Hero = () => (
       </p>
     </div>
     <div className={`flex flex-1${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={jesus} alt="jesus giving a sermon" className='w-[100%] h-[100%] relative z-[5] lg:min-w-[500px]'/>
+      <Tree />
 
       <div className='absolute z-[1] w-[40%] h-[35%] top-0 pink__gradient'/>
       <div className='absolute z-[2] w-[80%] h-[35%] rounded-full white__gradient bottom-40'/>
@@ -40,6 +41,7 @@ const Hero = () => (
     <div className={`ss:hidden mt-6 ${styles.flexCenter}`}>
       <LearnMore />
     </div>
+    {/* <img src={milal_hero} className='absolute w-full'/> */}
   </section>
 )
 

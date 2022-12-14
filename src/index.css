@@ -74,7 +74,7 @@
 
 .bg-discount-gradient {
   background: linear-gradient(40deg,
-    #A6D2A5 0%, #A6D2A5 81%, #ffe6e6 90%, #A6D2A5 97%);
+    #A6D2A5 0%, #A6D2A5 81%, #ffffff 90%, #A6D2A5 97%);
 }
 
 .box-shadow {
@@ -109,7 +109,7 @@
   58% { top: -6.4em;}
   72% { top: -7.7em;}
   86% { top: -9.3em;}
-  100% { top: -10.8em;}        
+  100% { top: -10.5em;}         
 }
 
 @keyframes slide-top {

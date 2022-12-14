@@ -1,8 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import { locations } from '../constants';
 import styles, { layout } from '../style';
-// import Button from './Button';
 import LocationRoll from './LocationRoll';
 import Select from './Select';
 
@@ -17,20 +16,17 @@ const Locations = () => {
   ];
 
   const [value, setValue] = useState(options[0].value);
-  
-  // useEffect(() => {
-  //   console.log(value);
-  //   }, [value]);
+
   const LocationCard = ({ value, icon, region, title, content, index }) => (
     <div className={`flex flex-row p-6 rounded-[20px] location-card min-w-full ${index !== locations.length - 1 ? "mb-2" : "mb-0"} ${region === value || value === 'All' ? 'bg-dimColor1' : 'hidden'}`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimColor1`}>
         <img src={icon} alt="icon"/>
       </div>
       <div className="flex-1 flex flex-col ml-3">
-        <h4 className="font-poppins font-semibold text-terracotta text-[18px] leading-[23px] mb-1">
+        <h4 className="font-poppins font-semibold text-dimColor0 text-[18px] leading-[23px] mb-1">
           {title}
         </h4>
-        <p className="font-poppins font-normal text-black text-[16px] leading-[24px] mb-1">
+        <p className="font-poppins font-normal text-terracotta text-[16px] leading-[24px] mb-1">
           {content}
         </p>
       </div>
@@ -49,14 +45,14 @@ const Locations = () => {
           <div className="text-secondary">Every Saturday</div>
         </h2>
           <Select 
-            className={`${styles.paragraph} max-w-[470px] mt-5 font-poppins text-terracotta font-bold ss:text-[32px] text-[20px] ss:leading-[44px] leading-[34px] z-[1]`}
+            className={`${styles.paragraph} max-w-[470px] mt-5 font-poppins text-bluePrimary font-bold ss:text-[32px] text-[20px] ss:leading-[44px] leading-[34px] z-[1]`}
             label="Regions: "
             options={options}
             value={value}
             onChange={(e) => setValue(e.target.value)}
         />
       </div>
-      <div className={`${layout.sectionImg} flex-col content-center max-h-[360px]`}>
+      <div className={`${layout.sectionImg} flex-col content-center`}>
         {locations.map((location, index) => (
           <LocationCard 
             value={value}
