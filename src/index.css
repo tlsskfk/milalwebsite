@@ -7,13 +7,12 @@
 @tailwind utilities;
 
 :root {
-  --black-gradient: linear-gradient(
+  --green-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    rgb(77, 124, 15) -278.56%,
+    rgb(21, 128, 61) -78.47%,
+    rgb(22, 101, 52) 91.61%
   );
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
 * {
@@ -124,8 +123,7 @@
 }
 
 .location-card:hover {
-  background: var(--black-gradient);
-  box-shadow: var(--card-shadow);
+  background: var(--green-gradient);
 }
 
 .feedback-container .feedback-card:last-child {

@@ -15,6 +15,19 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+      },
+      animation: {
+        'reverse-pulse' : 'pulse 2s cubic-bezier(0.4, 0, 0.6) infinite'
+      },
+      keyframes: {
+        pulse: {
+          '50%': {
+            opacity: .5
+          },
+          '0%, 100%': {
+            opacity: 1
+          },
+        }
       }
     },
     screens: {

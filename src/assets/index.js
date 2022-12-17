@@ -5,10 +5,14 @@ import tree from "./tree.svg";
 // import speech from"./speech.svg";
 // import milal_hero from "./milal-hero.jpg";
 import heart from "./heart.svg";
+import milal_mainInfo from "./milal-maininfo.jpg";
+import google_maps from "./google-maps.svg";
 // import jesus from "./jesus.svg";
-import clickHere from './clickHere.svg'
+import clickHere from './clickHere.svg';
 import facebook from "./facebook.svg";
 import instagram from "./instagram.png";
+import arrow_left from "./arrow-left.svg";
+import arrow_right from "./arrow-right.svg";
 
 export {
     close,
@@ -18,8 +22,13 @@ export {
     // speech,
     // milal_hero,
     heart,
+    milal_mainInfo,
+    google_maps,
     // jesus,
+
     clickHere,
     instagram,
-    facebook
+    facebook,
+    arrow_left,
+    arrow_right
 }

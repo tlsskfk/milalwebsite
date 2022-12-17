@@ -1,6 +1,6 @@
 // list of static texts
 
-import { close, instagram, facebook /*people01, people02, people03, linkedin, twitter, airbnb, binance, coinbase, dropbox,*//* mic, wordsearch, plate */  } from "../assets";
+import { close, instagram, facebook, google_maps, /*people01, people02, people03, linkedin, twitter, airbnb, binance, coinbase, dropbox,*//* mic, wordsearch, plate */  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,40 +23,32 @@ export const navLinks = [
 
 export const heroMessage = {
   id: "heroMessage",
-  title: "25",
+  title: "43",
   content: "years of service",
-  desc: "Milal's Mission ............... lorem ipsum yabba doodoo Milal's Mission ............... lorem ipsum yabba doodoo wMilal's Mission ............... lorem ipsum yabba doodoo "
+  desc: "Milal's Mission ............... lorem ipsum yabba doodoo Milal's Mission ............... lorem ipsum yabba doodoo Milal's Mission ............... lorem ipsum yabba doodoo "
 }
-
-export const locationsDescription = [
-  {
-    id: "East",
-    region: "East",
-    content: "Locations in Rockeville, MD - Led by Esther Lee; Baltimore, MD - Led by Pastor Jung; Boondocks, Virginia -.........."
-  }
-]
 
 export const locations = [
   {
     id: "Baltimore",
     region: "East",
-    icon: facebook,
+    icon: google_maps,
     title: "Baltimore",
     content:
-      "null",
+      "10624 Scaggsville Rd, Laurel, MD 20723",
   },
   {
     id: "Rockville",
     region: "East",
-    icon: facebook,
+    icon: google_maps,
     title: "Rockville",
     content:
-      "null",
+      "13925 Travilah Rd. Rockville, MD 20850",
   },
   {
     id: "Virginia",
     region: "East",
-    icon: facebook,
+    icon: google_maps,
     title: "Virginia",
     content:
       "null",
@@ -64,7 +56,7 @@ export const locations = [
   {
     id: "New York",
     region: "East",
-    icon: facebook,
+    icon: google_maps,
     title: "New York",
     content:
       "null",
@@ -72,7 +64,7 @@ export const locations = [
   {
     id: "Orange County",
     region: "West",
-    icon: facebook,
+    icon: google_maps,
     title: "San Diego",
     content:
       "null",
@@ -80,7 +72,7 @@ export const locations = [
   {
     id: "Chicago?",
     region: "MidWest",
-    icon: facebook,
+    icon: google_maps,
     title: "Chicago",
     content:
       "null",
@@ -88,7 +80,7 @@ export const locations = [
   {
     id: "Charlotte",
     region: "SouthEast",
-    icon: facebook,
+    icon: google_maps,
     title: "Charlotte",
     content:
       "null",

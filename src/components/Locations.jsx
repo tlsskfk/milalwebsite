@@ -18,15 +18,15 @@ const Locations = () => {
   const [value, setValue] = useState(options[0].value);
 
   const LocationCard = ({ value, icon, region, title, content, index }) => (
-    <div className={`flex flex-row p-6 rounded-[20px] location-card min-w-full ${index !== locations.length - 1 ? "mb-2" : "mb-0"} ${region === value || value === 'All' ? 'bg-dimColor1' : 'hidden'}`}>
-      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimColor1`}>
-        <img src={icon} alt="icon"/>
+    <div className={`flex flex-row p-6 rounded-[20px] location-card min-w-full ${index !== locations.length - 1 ? "mb-2" : "mb-0"} ${region === value || value === 'All' ? 'bg-dimColor1 shadow-lg' : 'hidden'}`}>
+      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-transparent`}>
+        <img src={icon} alt="google maps icon" className="hover:animate-pulse cursor-pointer hover:scale-125 bg-transparent"/>
       </div>
       <div className="flex-1 flex flex-col ml-3">
-        <h4 className="font-poppins font-semibold text-dimColor0 text-[18px] leading-[23px] mb-1">
+        <h4 className="font-poppins font-semibold text-secondary text-[18px] leading-[23px] mb-1 location-title">
           {title}
         </h4>
-        <p className="font-poppins font-normal text-terracotta text-[16px] leading-[24px] mb-1">
+        <p className="font-poppins font-normal text-tertiary text-[16px] leading-[24px] mb-1">
           {content}
         </p>
       </div>
