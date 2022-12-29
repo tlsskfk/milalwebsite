@@ -22,16 +22,17 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 59.16% 25.69%,
-    rgb( 251, 191, 36 ) 0.89%,
-    rgb( 245, 158, 11 ) 17.23%,
-    rgb( 217, 119, 6 ) 42.04%,
-    rgb( 180, 83, 9 ) 55.12%,
-    rgb( 146, 64, 14 ) 71.54%,
-    rgb( 120, 53, 15 ) 100%
+    #ffb3ba 0.89%,
+    #ffdfba 17.23%,
+    #ffffba 42.04%,
+    #baffc9 55.12%,
+    #bae1ff 71.54%,
+    #61cad4 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -80,6 +81,14 @@
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
+.text-shadow {
+  text-shadow: 2px 2px 2px white;
+}
+
+.text-shadow-b {
+  text-shadow: 1px 1px 2px black;
+}
+
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -124,6 +133,7 @@
 
 .location-card:hover {
   background: var(--green-gradient);
+  color: #e7e5e4;
 }
 
 .feedback-container .feedback-card:last-child {

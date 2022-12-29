@@ -1,11 +1,9 @@
 import styles, { layout } from '../style';
-import { milal_mainInfo } from '../assets';
 
 const MainInfo = () => {
   return (
-    <section id='MainInfo' className='flex pt-8 md:pt-16 m-2'>
-      <img src={milal_mainInfo} alt="Basic info on Milal Organization" className={`${layout.sectionInfo} z-[1] shadow-lg`}/>
-
+    <section id='MainInfo' className={layout.section}>
+      <div className='z-[2] h-[400px] w-full text-gradient text-end text-7xl font-poppins'>Milal American Wheat Mission Agape</div>
     </section>
   
     )};

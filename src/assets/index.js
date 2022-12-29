@@ -7,6 +7,8 @@ import tree from "./tree.svg";
 import heart from "./heart.svg";
 import milal_mainInfo from "./milal-maininfo.jpg";
 import google_maps from "./google-maps.svg";
+import play from "./play-button.svg"
+import pause from "./pause-button.svg"
 // import jesus from "./jesus.svg";
 import clickHere from './clickHere.svg';
 import facebook from "./facebook.svg";
@@ -24,6 +26,8 @@ export {
     heart,
     milal_mainInfo,
     google_maps,
+    play,
+    pause,
     // jesus,
 
     clickHere,

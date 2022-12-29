@@ -10,8 +10,14 @@ module.exports = {
         secondary: "rgb( 120, 53, 15 )", //brown
         tertiary: "rgb(54, 83, 20)",//green
         terracotta: "#ED6A5A",
-        dimColor0: "#946ED4",//purp
+        dimColor0: "#64B1D4",//purp
         dimColor1: "#A6D2A5", //lightgreen
+        pRed: "#ffb3ba",
+        pOrange: "#ffdfba",
+        pYellow: "#ffffba",
+        pGreen: "#baffc9",
+        pBlue: "#bae1ff",
+
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
