@@ -4,11 +4,15 @@ import { Navbar, Rainbow, Hero, Stats, MainInfo, Locations, Event, Articles, Spo
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-      <Rainbow /> 
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+      <Rainbow  className={`${styles.boxWidth}`}/> 
+    <div className={`${styles.flexCenter}`}>
+      <div className='bg-red-200 w-full justify-center flex'>
         <Navbar />
       </div>
+      <div className='top-0 h-28' />
+    </div>
+    <div>
+
     </div>
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>

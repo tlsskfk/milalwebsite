@@ -22,12 +22,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 59.16% 25.69%,
-    #ffb3ba 0.89%,
-    #ffdfba 17.23%,
-    #ffffba 42.04%,
-    #baffc9 55.12%,
-    #bae1ff 71.54%,
-    #61cad4 100%
+    #647DEE 0.89%,
+    #6F71AC 17.23%,
+    #7463BC 42.04%,
+    #7F53AC 55.12%,
+    #8F5AB7 71.54%,
+    #7F53AC 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -82,11 +82,15 @@
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 1px 2px 2px white;
 }
 
 .text-shadow-b {
   text-shadow: 1px 1px 2px black;
+}
+
+.text-shadow-p {
+  text-shadow: 1px 2px 1px #c7d2fe;
 }
 
 .sidebar {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Articles = () => {
   return (
-    <div>Articles</div>
+    <div className='h-[1200px] z-[4]'>Articles</div>
   )
 }
 

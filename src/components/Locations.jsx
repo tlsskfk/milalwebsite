@@ -22,7 +22,7 @@ const Locations = () => {
   const LocationCard = ({ value, icon, region, title, content }) => (
     <div className={`flex p-6 rounded-[20px] text-tertiary location-card cursor-pointer z-[2] mt-2 w-[100%] ${region === value || value === 'All' ? 'bg-dimColor1 shadow-lg border-tertiary border-2' : 'hidden'}`} onClick={() => (setcurMap(content))}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-transparent`}>
-        <img src={icon} alt="google maps icon" className="hover:animate-pulse hover:scale-125 bg-transparent transition duration-500"/>
+        <img src={icon} alt="google maps icon" className="hover:animate-pulse hover:scale-125 bg-transparent transition duration-500 hover:nav"/>
       </div>
       <div className="flex-1 flex flex-col ml-3">
         <h4 className="font-poppins font-semibold text-secondary text-[18px] leading-[23px] mb-1 location-title">
@@ -120,7 +120,7 @@ const Locations = () => {
         className='z-[1] absolute rounded-full w-[20vw] invisible md:visible left-[40vw] mt-[10%]  border-2 border-tertiary shadow-2xl' 
         alt="google maps of location" 
       /> 
-      <div className={`${layout.sectionImg} md:right-16 lg:right-4 xl:left-4 flex-col m-auto flex-none shrink justify-start md:max-h-[40vw] min-w-[250px] max-h-[250px] overflow-hidden z-[2] overflow-y-auto`}>
+      <div className={`${layout.sectionImg} md:right-16 lg:right-4 xl:left-4 flex-col m-auto flex-none shrink justify-start md:max-h-[40vw] min-w-[250px] max-h-[250px] overflow-hidden z-[2] overflow-y-auto touch-pan-y`}>
       {locations.map((location) => (
         <LocationCard 
           value={value}

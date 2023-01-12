@@ -23,7 +23,9 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       animation: {
-        'reverse-pulse' : 'pulse 2s cubic-bezier(0.4, 0, 0.6) infinite'
+        'reverse-pulse' : 'pulse 2s cubic-bezier(0.4, 0, 0.6) infinite',
+        'fade-in-down': 'fade-in-down 1s cubic-bezier(0.2, 0, 0, 1)',
+        'fade-in-up': 'fade-in-up 1s cubic-bezier(0.5, 0, 0, 1) forwards',
       },
       keyframes: {
         pulse: {
@@ -33,7 +35,27 @@ module.exports = {
           '0%, 100%': {
             opacity: 1
           },
-        }
+        },
+        'fade-in-down': {
+          '0%': {
+              opacity: '0.7',
+              transform: 'translateY(-100%)'
+          },
+          '100%': {
+              opacity: '1',
+              transform: 'translateY(0)'
+          },
+        },
+        'fade-in-up': {
+          '100%': {
+              opacity: '0',
+              transform: 'translateY(-100%)'
+          },
+          '0%': {
+              opacity: '1',
+              transform: 'translateY(0)'
+          },
+        },
       }
     },
     screens: {

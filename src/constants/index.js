@@ -1,6 +1,6 @@
 // list of static texts
 
-import { close, instagram, facebook, google_maps, /*people01, people02, people03, linkedin, twitter, airbnb, binance, coinbase, dropbox,*//* mic, wordsearch, plate */  } from "../assets";
+import { close, instagram, facebook, youtube, kakaotalk, google_maps, /*people01, people02, people03, linkedin, twitter, airbnb, binance, coinbase, dropbox,*//* mic, wordsearch, plate */  } from "../assets";
 
 export const navLinks = [
   {
@@ -9,15 +9,67 @@ export const navLinks = [
   },
   {
     id: "about",
-    title: "About Us",
-  },
-  {
-    id: "wordgame",
-    title: "Word Search 2.0",
+    title: "About",
+    link: "https://www.washingtonmilal.org/About",
+    content: [
+      {
+        title: "History",
+        id: "about/History",
+        link: "https://www.washingtonmilal.org/About/History",
+      },
+      {
+        title: "Mission",
+        id: "about/Mission",
+        link: "https://www.washingtonmilal.org/About/Mission",
+      },
+      {
+        title: "Class Agape",
+        id: "about/ClassAgape",
+        link: "https://www.washingtonmilal.org/About/ClassAgape",
+      },
+      {
+        title: "Camp Agape",
+        id: "about/CampAgape",
+        link: "https://www.washingtonmilal.org/About/CampAgape",
+      },
+    ]
   },
   {
     id: "contact",
     title: "Contact",
+    link: "https://www.washingtonmilal.org/Contact",
+    content: [
+      {
+        title: "FAQ",
+        id: "Contact/FAQ",
+        link: "https://www.washingtonmilal.org/Contact/FAQ",
+      },
+      {
+        title: "ContactForm",
+        id: "Contact/ContactForm",
+        link: "https://www.washingtonmilal.org/Contact/ContactForm",
+      },
+      {
+        title: "NewsLetter",
+        id: "Contact/NewsLetter",
+        link: "https://www.washingtonmilal.org/Contact/NewsLetter",
+      },
+      {
+        title: "Forms",
+        id: "Contact/Forms",
+        link: "https://www.washingtonmilal.org/Contact/Forms",
+      },
+    ]
+  },
+  {
+    id: "wordgame",
+    title: "Game",
+    link: "https://www.washingtonmilal.org/WordSearchGame",
+  },
+  {
+    id: "donate",
+    title: "Donate",
+    link: "https://www.washingtonmilal.org/Donate",
   },
 ];
 
@@ -211,12 +263,12 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
-    icon: instagram,
+    icon: youtube,
     link: "https://www.youtube.com/",
   },
   {
     id: "social-media-4",
-    icon: facebook,
+    icon: kakaotalk,
     link: "https://www.kakaotalk.com/",
   },
 ];

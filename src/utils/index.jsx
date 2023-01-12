@@ -2,6 +2,7 @@ export const generateId = (len = 4) => {
     const characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
     return sample(characters, len).join('');
 };
+
 export const range = function(start, end, step) {
     var range = [];
     var typeofStart = typeof start;
@@ -31,7 +32,7 @@ export const range = function(start, end, step) {
     }
   
     if (typeofStart == 'number') {
-      while (step > 0 ? end >= start : end <= start) {
+      while (step > 0 ? end - 1 >= start : end <= start) {
         range.push(start);
         start += step;
       }

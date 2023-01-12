@@ -3,9 +3,9 @@ import styles from '../style';
 const Stats = () => (
   <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
     {stats.map((stat) =>(
-      <div key={stat.id} className={`flex-1 flex justify-center items-center flex-row m-3 z-[1]`}>
+      <div key={stat.id} className={`flex-1 flex justify-center items-center flex-row m-3 z-[1] text-shadow`}>
         <h4 className='font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-bluePrimary'>{stat.value}</h4>
-        <p className='font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-dimColor0 uppercase ml-3'>{stat.title}</p>
+        <p className='font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#7F53AC] uppercase ml-3 text-shadow-p'>{stat.title}</p>
       </div>
     ))}
   </section>

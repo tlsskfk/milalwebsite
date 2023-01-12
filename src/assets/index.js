@@ -13,6 +13,8 @@ import pause from "./pause-button.svg"
 import clickHere from './clickHere.svg';
 import facebook from "./facebook.svg";
 import instagram from "./instagram.png";
+import youtube from "./youtube.svg";
+import kakaotalk from "./kakaotalk.svg";
 import arrow_left from "./arrow-left.svg";
 import arrow_right from "./arrow-right.svg";
 
@@ -33,6 +35,8 @@ export {
     clickHere,
     instagram,
     facebook,
+    youtube,
+    kakaotalk,
     arrow_left,
     arrow_right
 }

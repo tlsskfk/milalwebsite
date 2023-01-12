@@ -11,6 +11,7 @@ import Navbar from "./Navbar";
 import Sponsors from "./Sponsors";
 import Stats from "./Stats";
 import Rainbow from './Rainbow';
+import NavRainbow from './NavRainbow'
 
 export {
     Articles,
@@ -25,5 +26,6 @@ export {
     Navbar,
     Sponsors,
     Stats,
-    Rainbow
+    Rainbow,
+    NavRainbow,
 };
